@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Open+Sans&family=Playfair+Display:ital@1&family=Raleway:ital,wght@1,100&family=Roboto:ital@1&family=Ubuntu&display=swap"
+        rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>E-commerce website | Clone</title>
+</head>
+
+<body>
+    <header>
+        <!-- First head section start -->
+        <div class="head">
+            <div class="top">
+                <img src="./images/favicon.ico" alt="">
+                <p>Free Shipping for orders over 50$</p>
+            </div>
+            <div class="link">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Help center</a></li>
+                <li><a href="#" class="link4">Call us</a></li>
+            </div>
+        </div>
+        <!-- First head section start ends-->
+
+        <!-- Second head section start -->
+        <div class="second">
+            <div class="text">
+                <h1>TechShed</h1>
+                <input type="text" placeholder="search...">
+                <img src="./images/magnifying-glass-solid.svg" alt="">
+            </div>
+            <div class="icons">
+                <img class="icon1" src="./images/user-solid.svg" alt="">
+                <p class="">Log in</p>
+                <img class="icon2" src="./images/heart-regular.svg" alt="">
+                <p class="para2">favourite</p>
+                <img class="icon3" src="./images/icons8-shopping-cart.gif" alt="">
+                <p class="para3">cart</p>
+            </div>
+        </div>
+        <!-- Second head section end -->
+
+        <!-- <div class="navbar">
+            <div class="nav">
+                <li><a href="#">Shop All</a></li>
+                <li><a href="#">Computers</a></li>
+                <li><a href="#">Tablets</a></li>
+                <li><a href="#">Drones & Cameras</a></li>
+                <li><a href="#">Audio</a></li>
+                <li><a href="#">Mobile</a></li>
+                <li><a href="#">T.V & Home Cinema</a></li>
+                <li><a href="#">Wearable Tech</a></li>
+                <li><a href="#">Sale</a></li>
+            </div>
+        </div> -->
+
+        <!-- For responsiveness  -->
+        <div class="topnav" id="myTopnav">
+            <a href="#" class="active">Shop All</a>
+            <a href="#">Computers</a>
+            <a href="#">Tablets</a>
+            <a href="#">Audio</a>
+            <a href="#">Mobile</a>
+            <a href="#">T.V & Home Cinema</a>
+            <a href="#">Wearable Tech</a>
+            <a href="#">Sale</a>
+            <a href="#">Drones & Cameras</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+
+        <!-- This is the code for hamburger menu 
+            &#9776; -->
+
+        <section id="display">
+            <div class="data">
+                <h5>Best Prices</h5>
+                <h1>Incredible Prices <br>On All Your <br>Favourite Items</h1>
+                <p>Get more for less on selected items</p>
+                <a href="#">Shop now</a>
+            </div>
+            <div class="button-head">
+
+            </div>
+        </section>
+    </header>
+
+    <!-- This is the product section -->
+<main class="main">
+    <section id="products">
+        <div class="items">
+            <img src="./images/item1.webp" alt="">
+            <p class="p1">
+                Holiday Deals
+
+            </p>
+            <h2>
+                Up to <br> 30% off
+            </h2>
+
+            <p class="p2">
+                Selected Smartphone Brands
+
+            </p>
+
+            <button type="button" class="btn1">
+                <a href="" class="my-link">
+                    Shop
+                </a>
+            </button>
+        </div>
+        <div class="items">
+            <img src="./images/item2.avif" alt="">
+            <p class="p3">
+                Just In
+
+            </p>
+            <h2 class="h2">
+                Take Your Sound
+                Anywhere
+            </h2>
+            <p class="p4">
+                Top Headphone Brands
+            </p>
+            <button type="button" class="btn2">
+                <a href="" class="my-link">
+                    Shop
+                </a>
+            </button>
+        </div>
+    </section>
+
+    <!-- Section services -->
+    
+    <section id="services">
+        <div 
+        class="service-data">
+            <img data-aos="fade-zoom-in"
+            data-aos-offset="100"
+            data-aos-easing="ease-in-sine"
+             src="./images/bike.webp" alt="">
+             <br>
+            <p>Curb-side<br>pickup</p>
+            <img data-aos="fade-zoom-in"
+            data-aos-offset="100"
+            data-aos-easing="ease-in-sine" 
+            src="./images/shipping.png" alt="">
+
+            <p>Free shipping on<br>orders over $50</p>
+
+            <img data-aos="fade-zoom-in"
+            data-aos-offset="100"
+            data-aos-easing="ease-in-sine"
+             src="./images/price.jpeg" alt="">
+            <p>Low prices<br>guranteed</p>
+            <img data-aos="fade-zoom-in"
+            data-aos-offset="100"
+            data-aos-easing="ease-in-sine"
+             src="./images/available.jpeg" alt="">
+            <p>Available to<br>you 24/7</p>
+        </div>
+    </section>
+<hr>
+    <!-- Best Sellers -->
+
+    <section id="best-sellers">
+        <h1>Best Sellers</h1>
+        <div class="best-prod">
+            <div data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" class="prod">
+                <img src="./images/pro1.webp" alt="">
+                <h5>Fitboot Inspire Fitness<br>Tracker With Heart Rate<br>Tracking</h5>
+                <del>$85.00</del>
+                <det class="det">$70.00</det>
+            </div>
+            <div data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"  class="prod">
+                <img src="./images/pro2.webp" alt="">
+                <h5>JP Gaming Laptop 15.6"<br>Laptop 256GB</h5>
+                <del>$85.00</del>
+                <det class="det">$70.00</det>
+            </div>
+            <div data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" class="prod">
+                <img src="./images/pro3.webp" alt="">
+                <h5>HKI Tech Quadcopter<br>Drone With 360 Camera<br>& Controller</h5>
+                <p>$85.00</p>
+            </div>
+            <div data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" class="prod">
+                <img src="./images/pro4.webp" alt="">
+                <h5>Smartphone Z Pixel Max<br>128GB Unlocked</h5>
+                <del>$85.00</del>
+                <det class="det">$70.00</det>
+            </div>
+            <div data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" class="prod">
+                <img src="./images/pro5.webp" alt="">
+                <h5>In-ear Noise Cancelling &<br>Isolating Wireless<br>Earbuds</h5>
+                <del>$85.00</del>
+                <det class="det">$70.00</det>
+            </div>
+            <div data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" class="prod">
+                <img src="./images/pro6.webp" alt="">
+                <h5>Safay GEN 2 256GB VR<br>headset With Touch<br>Controllers</h5>
+                <p>$85.00</p>
+            </div>
+            <div class="button-prod">
+                <button type="button">View All</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop by category section -->
+    <section id="shopby">
+        <h1>Shop by products</h1>
+        <div class="shop-products">
+            <div class="shop-items">
+                <img data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0"src="./images/pro1.webp" alt="">
+                <p>Smart watches</p>
+            </div>
+            <div class="shop-items">
+                <img data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0" src="./images/pro2.webp" alt="">
+                <p>Laptops</p>
+            </div>
+            <div class="shop-items">
+                <img data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0" src="./images/pro3.webp" alt="">
+                <p>Drones</p>
+            </div>
+            <div class="shop-items">
+                <img data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0" src="./images/available.jpeg" alt="">
+                <p>24 Hour Service</p>
+            </div>
+            <div class="shop-items">
+                <img data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0" src="./images/pro5.webp" alt="">
+                <p>Air pods</p>
+            </div>
+            <div class="shop-items">
+                <img data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0"src="./images/pro3.webp" alt="">
+                <p>Advance Drones</p>
+            </div>
+            <div class="shop-items">
+                <img data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0" src="./images/pro4.webp" alt="">
+                <p>Mobile phones</p>
+            </div>
+            <div class="shop-items">
+                <img data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0" src="./images/pro5.webp" alt="">
+                <p>headphones</p>
+            </div>
+            <div class="shop-items">
+                <img data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0" src="./images/pro6.webp" alt="">
+                <p>Head set</p>
+            </div>
+            <div class="shop-items">
+                <img data-aos="fade-zoom-in"
+                data-aos-easing="ease-in-back"
+                data-aos-delay="300"
+                data-aos-offset="0" src="./images/pro1.webp" alt="">
+                <p>Digital Watch</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Save upto section-->
+
+    <section id="saveup">
+        <div class="save">
+            <h5>Save up to</h5>
+            <h1>$ 150</h1>
+            <h5>on selected laptop<br>& tablet brands</h5>
+            <p>Term's and condition apply</p>
+            <button type="button">Shop</button>
+        </div>
+    </section>
+
+    <!-- On sale section -->
+
+    <section id="Onsale">
+        <h1>On sale</h1>
+        <div class="sale-prod">
+            <div class="sale-products">
+                <img data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000" src="./images/sale1.webp" alt="">
+                <h5>Space moon<br>Smart watch with<br>Charger</h5>
+                <del>$85.00</del>
+                <det class="det2">$70.00</det>
+            </div>
+            <div class="sale-products">
+                <img data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000" src="./images/sale2.webp" alt="">
+                <h5>OVE Light Space 5G<br>128GB</h5>
+                <del>$85.00</del>
+                <det class="det2">$70.00</det>
+            </div>
+            <div class="sale-products">
+                <img data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000" src="./images/sale3.webp" alt="">
+                <h5>Pilates 16" Touch<br>Screen laptop 24GB<br>Memory</h5>
+                <del>$85.00</del>
+                <det class="det2">$70.00</det>
+            </div>
+            <div class="sale-products">
+                <img data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000"src="./images/sale4.webp" alt="">
+                <h5>Turn 5 portable<br>Bluetooth Speaker</h5>
+                <del>$85.00</del>
+                <det class="det2">$70.00</det>
+            </div>
+            <div class="sale-products">
+                <img data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000" src="./images/sale5.webp" alt="">
+                <h5>Journey glass XD<br>Virtual reality headset</h5>
+                <del>$85.00</del>
+                <det class="det2">$70.00</det>
+            </div>
+            <div class="sale-products">
+                <img data-aos="fade-down"
+                data-aos-easing="linear"
+                data-aos-duration="1000" src="./images/sale6.webp" alt="">
+                <h5>H1C indoor wireless<br>1080p Network security<br>Camera</h5>
+                <del>$85.00</del>
+                <det class="det2">$70.00</det>
+            </div>
+
+            <div class="button-sale">
+                <button type="button">View All</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 30% off sale section -->
+
+    <section id="saveupto">
+        <div class="upto">
+            <h5>Best Arrival New In Town</h5>
+            <h1>30% <span>OFF</span></h1>
+            <h5>on professional cameras drones</h5>
+            <p>Limited quantities<br>See product detail pages for availibility</p>
+            <button type="button">Shop</button>
+        </div>
+    </section>
+
+    <!-- Brands -->
+    <div id="brands">
+        <h1>Brands</h1>
+        <div class="br">
+            <div data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" class="brand">
+                <h3>ZODIAC</h3>
+            </div>
+            <div data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" class="brand">
+                <h3>ZORO</h3>
+            </div>
+            <div data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" class="brand">
+                <h3>PJK</h3>
+            </div>
+            <div data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0" class="brand item4">
+                <h3>GXL</h3>
+            </div>
+            <div data-aos="fade-zoom-in"
+     data-aos-easing="ease-in-back"
+     data-aos-delay="300"
+     data-aos-offset="0" class="brand item5">
+                <h3>HORIZON</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- News letter section -->
+    <section id="newsletter">
+        <div class="news-data">
+            <h1>Newsletter</h1>
+            <p>Sign up to receive updates on new arrivals and special offers</p>
+            <label for="email">Email *</label><br><br>
+            <input type="email" name="email" id="email" placeholder="Enter Your Email Here">
+            <button type="button">Subscribe</button>
+        </div>
+    </section>
+
+    <!-- Help center section -->
+
+    <section id="helpCenter">
+        <div class="help">
+            <h1>Need Help? Check<br>Out Our Help Center</h1>
+            <p >I'm a paragraph. Click here to add your own text <br>and edit me. Let your users get to know you.</p>
+            <button  type="button">Go to Help Center</button>
+        </div>
+    </section>
+
+    <!-- Payment methods -->
+
+    <section id="payment">
+        <div class="methods">
+            <h6>We accept the following payment methods</h6>
+            <img data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom"  src="./images/p1.webp" alt="">
+            <img data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom" src="./images/p2.webp" alt="">
+            <img data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" src="./images/p3.webp" alt="">
+            <img data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" src="./images/p4.webp" alt="">
+            <img data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" src="./images/p5.webp" alt="">
+            <img data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" src="./images/p6.webp" alt="">
+            <img data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" src="./images/p7.webp" alt="">
+            <img data-aos="fade-up"
+     data-aos-anchor-placement="top-bottom" src="./images/p8.webp" alt="">
+        </div>
+    </section>
+</main>
+    <footer>
+        <p>&copy; 2023 by TechShed Powered and secured by <span><b>The</b></span> <span><b>  Refiners</b></span></p>
+    </footer>
+
+
+
+    
+
+
+
+    <!-- Javascript code starts here -->
+
+    <script>
+        AOS.init();
+      </script>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+</body>
+
+</html>
